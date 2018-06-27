@@ -13,11 +13,10 @@ public class HomeDashboard extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_dashboard);
         //defining Cards
-        bankCard = (CardView) findViewById(R.id.tips_card);
-        ideasCard = (CardView) findViewById(R.id.ideas_card);
-        addCard = (CardView) findViewById(R.id.add_card);
-
-        wifiCard = (CardView) findViewById(R.id.miles_card);
+        bankCard = findViewById(R.id.tips_card);
+        ideasCard = findViewById(R.id.ideas_card);
+        addCard = findViewById(R.id.link_card);
+        wifiCard = findViewById(R.id.miles_card);
         // Add Click listener to the cards
         bankCard.setOnClickListener(this);
         ideasCard.setOnClickListener(this);
@@ -32,7 +31,7 @@ public class HomeDashboard extends AppCompatActivity implements View.OnClickList
 
         switch (view.getId()){
             case R.id.tips_card : i = new Intent(this, Tips.class);startActivity(i);break;
-            case R.id.add_card : i = new Intent(this, Add.class);startActivity(i);break;
+            case R.id.link_card : i = new Intent(this, Add.class);startActivity(i);break;
             case R.id.ideas_card : i = new Intent(this, Ideas.class);startActivity(i);break;
             case R.id.miles_card : i = new Intent(this, Miles.class);startActivity(i);break;
             default:break ;

@@ -8,4 +8,5 @@
     <string name="addactivity">Add Activity</string>
     <string name="tipssub">Add and Manage Tips</string>
     <string name="login">Login</string>
+    <string name="h_tip">add tip</string>
 </resources>
