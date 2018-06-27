@@ -5,4 +5,5 @@
     <string name="Ideas">Ideas</string>
     <string name="add">Add</string>
     <string name="links">Links</string>
-    </resources>
+    <string name="addactivity">Add Activity</string>
+</resources>
