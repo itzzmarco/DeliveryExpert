@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "408335844670",
+    "firebase_url": "https://delivery-expert-99a8b.firebaseio.com",
+    "project_id": "delivery-expert-99a8b",
+    "storage_bucket": "delivery-expert-99a8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408335844670:android:90bdad9ad4f228b2",
+        "android_client_info": {
+          "package_name": "com.example.marco.deliveryexpert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408335844670-b81iabchcmgor85t3cmft7cho8qmkvf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marco.deliveryexpert",
+            "certificate_hash": "cbdb23b789617333912ab2cb2a4ad3d70385fd94"
+          }
+        },
+        {
+          "client_id": "408335844670-jeta2e31fj0a2ajcntrmapt7ph2e9bus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGu42xjiM89_gpNJeBRuconV3RJ9lz8BM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408335844670-jeta2e31fj0a2ajcntrmapt7ph2e9bus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
