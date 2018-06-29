@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class WelcomeScreen extends AppCompatActivity {
-    // TODO Add Enter Button Press to bring up HomeDashboard
+    // Add Enter Button Press to bring up HomeDashboard
     LinearLayout l1,l2;
     Button btnsub;
     Animation uptodown,downtoup;
