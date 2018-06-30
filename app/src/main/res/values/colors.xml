@@ -15,6 +15,7 @@
         <color name="darkblue">#010151</color>
         <color name="lightorangedark">#f45f41</color>
         <color name="white">#fff</color>
+        <color name="clear">#00ffffff</color>
 
         <color name="black_overlay">#66000000</color>
 </resources>
