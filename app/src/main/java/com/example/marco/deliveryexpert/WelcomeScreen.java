@@ -10,7 +10,6 @@ import android.widget.LinearLayout;
 
 public class WelcomeScreen extends AppCompatActivity {
     // Add Enter Button Press to bring up HomeDashboard
-    LinearLayout l1,l2;
     Button btnsub;
 
     @Override
